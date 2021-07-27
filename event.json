@@ -1,0 +1,442 @@
+[
+  {
+    "pk": 1,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 7,
+      "name": "登录失败",
+      "desc": "用户名正确，IP未授权或密码不正确",
+      "level": 0
+    }
+  },
+  {
+    "pk": 2,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 7,
+      "name": "登录失败超限",
+      "desc": "用户名正确，IP未授权或密码不正确，连续输入错误达到设定值",
+      "level": 2
+    }
+  },
+  {
+    "pk": 3,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 7,
+      "name": "尝试登录",
+      "desc": "用户名不正确",
+      "level": 1
+    }
+  },
+  {
+    "pk": 4,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 7,
+      "name": "登录成功",
+      "desc": "用户名，密码正确，IP获得授权",
+      "level": 0
+    }
+  },
+  {
+    "pk": 5,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 7,
+      "name": "登出成功",
+      "desc": "用户主动登出",
+      "level": 0
+    }
+  },
+  {
+    "pk": 6,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 7,
+      "name": "超时登出",
+      "desc": "用户设定时间内无任何操作",
+      "level": 0
+    }
+  },
+  {
+    "pk": 7,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 10,
+      "name": "创建账户",
+      "desc": "添加账户成功",
+      "level": 1
+    }
+  },
+  {
+    "pk": 8,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 10,
+      "name": "启用账户",
+      "desc": "将禁用账户改为启用",
+      "level": 0
+    }
+  },
+  {
+    "pk": 9,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 10,
+      "name": "禁用账户",
+      "desc": "将启用账户改为禁用",
+      "level": 0
+    }
+  },
+  {
+    "pk": 10,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 10,
+      "name": "密码修改",
+      "desc": "用户修改密码成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 11,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 10,
+      "name": "密码修改超限",
+      "desc": "用户在设定时间内未修改密码",
+      "level": 1
+    }
+  },
+  {
+    "pk": 12,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 8,
+      "name": "IP设置",
+      "desc": "本机IP设置成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 13,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 8,
+      "name": "时间设置",
+      "desc": "本机时间设置成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 14,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 8,
+      "name": "存储设置",
+      "desc": "本机存储设置成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 15,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 8,
+      "name": "登录安全设置",
+      "desc": "本机登录安全设置成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 16,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 8,
+      "name": "远程登录设置",
+      "desc": "本机远程登录设置成功",
+      "level": 1
+    }
+  },
+  {
+    "pk": 17,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 9,
+      "name": "审计策略下发",
+      "desc": "审计策略下发成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 18,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 9,
+      "name": "审计批量策略下发",
+      "desc": "审计策略批量下发成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 19,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 9,
+      "name": "审计策略同步",
+      "desc": "审计策略同步成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 20,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 9,
+      "name": "审计批量策略同步",
+      "desc": "审计策略批量同步成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 21,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 3,
+      "type": 9,
+      "name": "防火墙策略下发",
+      "desc": "防火墙策略下发成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 22,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 4,
+      "type": 11,
+      "name": "资产批量导入",
+      "desc": "资产批量导入成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 23,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 4,
+      "type": 11,
+      "name": "资产批量导出",
+      "desc": "资产批量导出成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 24,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 4,
+      "type": 11,
+      "name": "添加资产",
+      "desc": "资产添加成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 25,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 4,
+      "type": 11,
+      "name": "资产编辑",
+      "desc": "资产编辑成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 26,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 4,
+      "type": 11,
+      "name": "资产删除",
+      "desc": "资产删除成功",
+      "level": 1
+    }
+  },
+  {
+    "pk": 27,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 4,
+      "type": 11,
+      "name": "批量修改绑定状态",
+      "desc": "批量修改绑定状态成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 28,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 4,
+      "type": 11,
+      "name": "批量修改监控状态",
+      "desc": "批量修改监控状态成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 29,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 4,
+      "type": 11,
+      "name": "批量修改安全负责人",
+      "desc": "批量修改安全负责人成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 30,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 4,
+      "type": 11,
+      "name": "批量修改资产位置",
+      "desc": "批量修改安全资产位置成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 31,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 4,
+      "type": 12,
+      "name": "关联资产",
+      "desc": "资产验证关联码成功",
+      "level": 0
+    }
+  },
+  {
+    "pk": 32,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 4,
+      "type": 12,
+      "name": "CPU使用率超限",
+      "desc": "CPU使用率超过设定值",
+      "level": 1
+    }
+  },
+  {
+    "pk": 33,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 4,
+      "type": 12,
+      "name": "内存使用率超限",
+      "desc": "内存使用率超过设定值",
+      "level": 1
+    }
+  },
+  {
+    "pk": 34,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 4,
+      "type": 12,
+      "name": "硬盘使用率超限",
+      "desc": "存储使用率超过设定值",
+      "level": 1
+    }
+  },
+  {
+    "pk": 35,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 1,
+      "type": 1,
+      "name": "黑名单告警",
+      "desc": "检测到命中黑名单库的数据",
+      "level": 3
+    }
+  },
+  {
+    "pk": 36,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 1,
+      "type": 2,
+      "name": "陌生设备接入",
+      "desc": "设备IP未在资产列表 /流量的起始IP或目的IP不在设备列表",
+      "level": 3
+    }
+  },
+  {
+    "pk": 37,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 1,
+      "type": 4,
+      "name": "Mac地址冲突",
+      "desc": "Mac地址与已有绑定规则冲突/流量中的起始IP或目的IP与现有绑定规则比对，IP相同时，比对出不同的Mac地址",
+      "level": 1
+    }
+  },
+  {
+    "pk": 38,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 1,
+      "type": 3,
+      "name": "通讯行为异常",
+      "desc": "流量五元组（源目的IP/端口与协议类型）中内容与已有白名单不一致",
+      "level": 3
+    }
+  },
+  {
+    "pk": 39,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 1,
+      "type": 5,
+      "name": "通讯内容异常",
+      "desc": "流量功能码未在白名单中",
+      "level": 3
+    }
+  },
+  {
+    "pk": 40,
+    "model": "base_app.EventLog",
+    "fields": {
+      "category": 1,
+      "type": 30,
+      "name": "设备离线",
+      "desc": "设备没有发出流量，也无法接收流量",
+      "level": 2
+    }
+  }
+]
